@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>index</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link href="css/style.css" style="text/css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
+</head>
+
+
+<style type="text/css">
+
+ html{overflow-x: hidden;
+        overflow-y: hidden;}
+
+*{
+   margin: 0;
+   padding: 0;
+  }
+
+        .bg {
+          
+          
+  
+          background-image:url("images/09.jpeg");
+
+          background-size:100%;
+
+          min-height: 600px;
+
+          background-position: 50% -22px;
+
+           background-repeat: no-repeat no-repeat;
+               
+              }
+           .img2{
+           background-image:url("images/1.jpg");
+
+           background-size:cover;
+
+           min-height:600px;
+
+           background-position: 50% -1px;
+           animation: rotate 4s 2 ease-out ;
+          
+           background-repeat: no-repeat;
+            position: relative; 
+
+              }
+
+
+
+       
+
+@keyframes rotate
+{
+from {transform: translateY(660px);}
+to {transform: translateY(0px);}
+}
+      #img{
+         
+         height: 40px;     
+         width: 10%;
+         position: absolute;
+         left: 46%;
+         top: 86%;
+         z-index: 1;
+       }
+  
+      .box1{width: 240px;
+            height: 340px;
+            position: absolute;
+            margin-left:38px;
+            top:79px;
+            box-shadow:10px 2px  13px  5px white ;}
+
+
+      .p{font-size: 15px;}
+
+        p:nth-child(n){color:#FFCC99;}
+        
+        p:first-letter{color:#FFFFCC; font-size:70px;}
+
+    
+     .box2{width: 260px;
+           height: 340px;
+           left: 939px;
+           top:79px;
+           position: absolute;
+           box-shadow:-10px 2px  9px 5px white ;}
+
+      .text{ font-size: 15px;}
+  </style>                      	
+<body>
+
+
+
+ <!-- navigator -->
+    <nav class="navbar">
+       
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle btn-lg" data-toggle="collapse" data-target="#navcollapse">
+                    <span class="glyphicon glyphicon-align-justify"></span>
+                </button>
+            </div>
+            <div id="navcollapse" class="collapse navbar-collapse">
+                <ul class="nav nav-pills" id="navbar">
+                    <li class="active col-xs-12  col-md-3"><a href="index.html">首页</a></li>
+                    <li class="col-xs-12 col-md-2"><a href="about.html">作品说明</a></li>
+                    <li class="col-xs-12 col-md-2"><a href="content.html">党的性质</a></li>
+                    <li class="col-xs-12 col-md-2"><a href="#">党的发展</a></li>
+                    <li class="col-xs-12 col-md-2"><a href="#">联系我</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- /navigator -->
+
+	   <div class="bg"> 
+
+  <div class="img2"><div class="box1"><div class="p"><p>时间从未改变前行的脚步<br><br>
+          又一个七一来到<br><br>
+            <marquee  behavior="alternate" loop="5">一个党员，一面旗帜</marquee><br><br>
+              <marquee behavior="slide" loop="3" scrollmount="1s">一份承诺，一份责任</marquee><br><br>
+            每一份伟大的开始<br><br>
+           都源于对信念、使命的坚持</p></div></div>
+          <div class="box2">  <div class="text"> <p>我们党在长期奋斗历程中<br><br>
+            形成的优良传统和革命精神<br><br>
+            是一笔宝贵的财富和丰富的学习资源<br><br><br>
+           我们走得再远都不能忘记来时的路<br><br>
+             <marquee behavior="scroll" > 无论何时都不能忘却革命精神</marquee><br>
+            </p></div></div>
+        </div>
+
+     
+   </div>
+
+</body>
+</html>
